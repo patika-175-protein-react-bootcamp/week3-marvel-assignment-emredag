@@ -243,20 +243,6 @@ function App() {
               {(currentPage + 1) * itemsPerPage} arasını görüntülüyorsunuz.
             </p>
           </div>
-          {/* <div className="paginationOptions">
-            <form>
-              <label>Her sayfada </label>
-              <select onChange={(e) => setItemsPerPage(e.target.value)}>
-                <option value={8}>8</option>
-                <option selected value={12}>
-                  12
-                </option>
-                <option value={16}>16</option>
-                <option value={20}>20</option>
-              </select>
-              <label> sonuç göster</label>
-            </form>
-          </div> */}
         </div>
       </div>
     </div>
